@@ -1,0 +1,43 @@
+ <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Home | Siraj Paudyal</title>
+         <link rel="Stylesheet" href="Style.css">
+         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+  <body>
+    
+<section class="header">
+<nav>
+    <a href="index.html"><img src="Logo.gif"></a>
+    
+    <div class="link" id="navlink">
+     <i class="fa fa-window-close" onclick="hidemenu()"></i>  
+      <ul>
+    <li> <a href="index.html">Home</a></li> 
+    <li> <a href="Contact.html">Contact</a></li>
+    <li> <a href="About me.html">About Me</a></li>
+     </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i> 
+    </nav>
+   <div class="textbox">
+    <h1>WELCOME TO MY WEBSITE</h1>
+    <p>Complete E-Learning Portal, A new wave of e-learning has begun</p><br>
+    <a href="Feature.html" class="notes-btn">GET IN</a>
+   </div>
+</section>
+<script>
+  var navlink = document.getElementById("navlink");
+ function hidemenu()
+ {
+  navlink.style.right = "-200px"
+ }
+ function showmenu()
+ {
+  navlink.style.right = "0"
+ }
+
+</script>
+  </body>
+  </html>
